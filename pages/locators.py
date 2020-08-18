@@ -21,7 +21,6 @@ class ProductPageLocators:
 class BasePageLocators:
     BUTTON_LINK_TO_BASKET = (By.CSS_SELECTOR, '.btn-group > .btn[href *= "basket"]')
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
-    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
     USER_ICON = (By.CSS_SELECTOR, ".icon-user")
 
 
